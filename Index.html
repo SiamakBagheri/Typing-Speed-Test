@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Short description for the website -->
+    <meta name="description" content="توضیحی برای صفحه وبسایت">
+    <!-- Keywords for search engines -->
+    <meta name="keywords" content="HTML,CSS,BootStrap,JavaScript">
+    <!-- Website author -->
+    <meta name="author" content="Siamak Bagheri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تست سرعت تایپ</title>
+
+    <!-- Favicons -->
+    <link href="#" rel="icon">
+    <link href="#" rel="apple-touch-icon">
+
+    <!-- Fonts CSS Files -->
+    <link rel="stylesheet" href="./assets/fonts/Vazirmatn-font-face.css">
+
+    <!-- Bootstrap CSS Files -->
+    <link href="./assets/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.rtl.min.css.map" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main id="main">
+
+        <div class="TypingSpeedTest">
+
+            <article class="header-title">
+                <h1>تست سرعت تایپ متن انگلیسی</h1>
+            </article>
+
+            <section class="test-text__clock-timer">
+
+                <div id="pattern">
+                    <h2>متن الگو :</h2>
+                    <p>This is a simple text to test typing speed</p>
+                </div>
+
+                <div class="clock">
+                    <div class="timer">00:00:00</div>
+                </div>
+
+            </section>
+
+            <section class="test-wrapper__btn-reset">
+
+                <div class="test-wrapper">
+                    <div class="test-wrapper-border">
+                        <textarea name="textarea" id="test-area" cols="50" rows="4" placeholder=" با تایپ اولین حرف تایمر شمارش را آغاز میکند"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn-reset">
+                    <button id="btn-reset">از نو شروع کن</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    راهنما
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">راهنما :</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    فرایند سنجش سرعت تایپ بدین گونه است که با شروع تایپ کاربر، تایمر شروع به شمارش زمان میکند و با تایپ هر حرف توسط کاربر، مطابقت متن کاربر با متن نمایش داده شده چک میشود.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Bootstrap JS Files -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js.map"></script>
+
+    <!-- Template Main JS Files -->
+    <script src="./assets/js/Script.js"></script>
+</body>
+
+</html>
