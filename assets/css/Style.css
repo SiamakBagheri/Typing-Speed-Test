@@ -6,7 +6,7 @@
 
 body {
     font-family: Vazirmatn;
-    background: linear-gradient(to right, #e6dada, #274046);
+    background: linear-gradient(to right, #2BC0E4, #EAECC6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ main#main {
 /* داخله */
 
 div.TypingSpeedTest {
-    background: linear-gradient(to right, #ba5370, #f4e2d8);
+    background: linear-gradient(to left, #1c92d2, #f2fcfe);
     width: 1024px;
     height: 512px;
     display: inline-flex;
@@ -35,7 +35,7 @@ div.TypingSpeedTest {
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    box-shadow: 0 0.25rem 2rem darkgray;
+    box-shadow: 0 0.25rem 2rem gray;
 }
 
 
@@ -76,7 +76,7 @@ section.test-text__clock-timer {
 }
 
 div#pattern {
-    background: linear-gradient(to right, #a87b85, #f4e2d8);
+    background: linear-gradient(to left, #1c92d2, #EAECC6);
     width: 75%;
     display: inline-flex;
     flex-direction: column;
@@ -99,11 +99,9 @@ div#pattern p {
 
 div.clock {
     width: 25%;
-    background-color: #ba5370;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.50rem;
 }
 
 div.timer {
@@ -129,7 +127,7 @@ div.test-wrapper {
 }
 
 textarea#test-area {
-    background: linear-gradient(to right, #d79aa3, #f4e2d8);
+    background: none;
     font-size: 1.5rem;
     border: 0.5rem solid gray;
     direction: ltr;
@@ -146,7 +144,7 @@ div.btn-reset {
 
 button#btn-reset {
     font-family: Vazirmatn;
-    background-color: #f4e2d8;
+    background-color: #2BC0E4;
     padding: 0.5rem 0;
     font-size: 1rem;
     font-weight: bold;
@@ -173,7 +171,6 @@ button#btn-reset:active {
 
 button#btn-help {
     font-family: Vazirmatn;
-    background-color: #f4e2d8;
     padding: 0.5rem 0;
     font-size: 1rem;
     font-weight: bold;
